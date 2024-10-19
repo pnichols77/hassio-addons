@@ -1,5 +1,20 @@
 {
   "name": "Phil's Home Assistant Add-Ons",
   "url": "https://github.com/pnichols77/hassio-addons",
-  "maintainer": "Phil Nichols <philnichols@gmail.com>"
+  "maintainer": "Phil Nichols <philnichols@gmail.com>",
+  "addons": [
+    {
+      "slug": "hyperhdr",
+      "name": "HyperHDR",
+      "description": "HyperHDR is an open-source ambient lighting implementation for TV sets.",
+      "version": "20.0.0.0",
+      "arch": [
+        "amd64",
+        "armhf",
+        "aarch64"
+      ],
+      "startup": "application",
+      "boot": "auto"
+    }
+  ]
 }
